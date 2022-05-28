@@ -1,0 +1,1 @@
+console.log('js/index1.js',);
