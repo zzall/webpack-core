@@ -22,8 +22,8 @@ var _printUtils = require("/Users/babytree/Desktop/study/webpack-core/src/printU
 
 require("/Users/babytree/Desktop/study/webpack-core/src/js/index1.js");
 
-console.log('pringName', (0, _printUtils.printName)());
-console.log('index.js'); 
+console.log('====我是zzz===!!!pringName', (0, _printUtils.printName)());
+console.log('====我是zzz===!!!index.js'); 
   
     },
       {"/Users/babytree/Desktop/study/webpack-core/src/printUtils.js":1,"/Users/babytree/Desktop/study/webpack-core/src/js/index1.js":2} 
@@ -48,7 +48,7 @@ var _test4 = _interopRequireDefault(_test3);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function printName() {
-  console.log('内部的printName');
+  console.log('====我是zzz===!!!内部的printName');
   return 'zzz';
 } 
   
@@ -59,7 +59,7 @@ function printName() {
     2: [function (require, module,exports) {
       "use strict";
 
-console.log('js/index1.js'); 
+console.log('====我是zzz===!!!js/index1.js'); 
   
     },
       {} 
@@ -68,7 +68,7 @@ console.log('js/index1.js');
     3: [function (require, module,exports) {
       "use strict";
 
-console.log('我是test1'); 
+console.log('====我是zzz===!!!我是test1'); 
   
     },
       {} 
@@ -83,7 +83,7 @@ var _test2 = _interopRequireDefault(_test);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-console.log('我是test2', _test2.default); 
+console.log('====我是zzz===!!!我是test2', _test2.default); 
   
     },
       {"/Users/babytree/Desktop/study/webpack-core/src/test3.js":5} 
@@ -95,7 +95,7 @@ console.log('我是test2', _test2.default);
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-console.log('test3');
+console.log('====我是zzz===!!!test3');
 exports.default = 'test3'; 
   
     },
